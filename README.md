@@ -1,13 +1,18 @@
 <div align="center">
 
-# Prism
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/hero-dark.png">
+    <img src="assets/brand/hero-light.png" alt="prism, an Orin DX tool" width="360">
+  </picture>
+</p>
 
 **Evaluation runner and CI quality-gating platform for AI coding agents and plugins.**
 
-[![CI](https://github.com/orin-axi/prism/actions/workflows/ci.yml/badge.svg)](https://github.com/orin-axi/prism/actions)
+[![CI](https://github.com/orin-dx/prism/actions/workflows/ci.yml/badge.svg)](https://github.com/orin-dx/prism/actions)
 [![License: FSL-1.1-MIT](https://img.shields.io/badge/License-FSL--1.1--MIT-blue.svg)](https://functional-source-license.com/1.1/)
 [![Rust: 1.80+](https://img.shields.io/badge/Rust-1.80+-orange.svg)](https://www.rust-lang.org)
-[![MSRV: 1.80](https://img.shields.io/badge/MSRV-1.80-brightgreen.svg)](https://github.com/orin-axi/prism)
+[![MSRV: 1.80](https://img.shields.io/badge/MSRV-1.80-brightgreen.svg)](https://github.com/orin-dx/prism)
 
 [Overview](#overview) • [Pipeline](#evaluation-pipeline) • [The 8 Evaluated Dimensions](#the-8-evaluated-dimensions) • [The 4 Graders](#the-4-graders) • [Installation](#installation) • [CLI Reference](#cli-reference) • [Matrix Experiments](#declarative-matrix-experiments) • [CI Integration](#github-actions-ci-integration) • [Documentation](#documentation)
 
@@ -155,7 +160,7 @@ Executes few-shot formative G-Eval rubrics with Opus using contrastive pass/fail
 ### Pre-Built Binaries
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/orin-axi/prism/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orin-dx/prism/main/install.sh | bash
 ```
 
 ### Homebrew
